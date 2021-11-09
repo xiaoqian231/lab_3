@@ -1,11 +1,14 @@
 package Problem_1_returnNumbers;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 
 class CheckNumbersTest {
-    public void CheckNumbers() throws Exception {
+    @Test
+    public void CheckNumbers()  {
         CheckNumbers cn = new CheckNumbers();
         ArrayList<Integer> lists = new ArrayList<>();
         lists.add(1);

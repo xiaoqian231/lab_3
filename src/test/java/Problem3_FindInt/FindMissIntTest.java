@@ -2,13 +2,15 @@ package Problem3_FindInt;
 
 import Problem_1_returnNumbers.CheckNumbers;
 import junit.framework.TestCase;
+import org.junit.Test;
 
 import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 
 public class FindMissIntTest extends TestCase {
-    public void FindMissIntTest() throws Exception {
+    @Test
+    public void FindMissIntTest()  {
         FindMissInt fm= new FindMissInt();
         ArrayList<Integer> lists = new ArrayList<>();
         lists.add(1);

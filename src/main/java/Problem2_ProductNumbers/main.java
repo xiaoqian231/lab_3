@@ -11,7 +11,7 @@ public class main {
         ReturnNewAarray rt = new ReturnNewAarray();
         ArrayList<Integer> lists = new ArrayList<>();
         lists.add(1);
-        lists.add(5);
+        lists.add(0);
         lists.add(9);
         lists.add(2);
 

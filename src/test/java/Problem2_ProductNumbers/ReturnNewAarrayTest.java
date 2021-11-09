@@ -2,11 +2,13 @@ package Problem2_ProductNumbers;
 
 import junit.framework.TestCase;
 import org.junit.Assert;
+import org.junit.Test;
 
 import java.util.ArrayList;
 
 public class ReturnNewAarrayTest extends TestCase {
-    public void ReturnNewArray() throws Exception {
+    @Test
+    public void ReturnNewArray()  {
         ReturnNewAarray rt = new ReturnNewAarray();
         ArrayList<Integer> lists = new ArrayList<>();
         lists.add(1);
