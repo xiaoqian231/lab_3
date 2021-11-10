@@ -1,12 +1,13 @@
 package Problem_1_returnNumbers;
 
+import junit.framework.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 
-class CheckNumbersTest {
+public class CheckNumbersTest {
     @Test
     public void CheckNumbers()  {
         CheckNumbers cn = new CheckNumbers();
@@ -20,8 +21,8 @@ class CheckNumbersTest {
         lists.add(6);
         lists.add(4);
         int target = 8;
-        assertEquals(true,cn.CheckNumbers(lists,target) );
 
+        assertEquals(true,cn.CheckNumbers(lists,target));
     }
 
 }

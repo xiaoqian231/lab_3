@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
-public class ReturnNewAarrayTest extends TestCase {
+public class ReturnNewAarrayTest  {
     @Test
     public void ReturnNewArray()  {
         ReturnNewAarray rt = new ReturnNewAarray();
